@@ -1,26 +1,27 @@
 import { useState } from "react";
 import "./infpAssemble.css";
 import InfpAddFrm from "./InfpAddFrm";
+import InfpList from "./InfpList";
 
 const InfpAssemble = () => {
-  let todoNo = 1;
+  let infpNo = 1;
 
-  const [todoList, setTodoList] = useState([
+  const [infpList, setInfpList] = useState([
     {
-      todoNo: todoNo++,
-      todoTitle: "javascript 복습하기",
+      infpNo: infpNo++,
+      infpTitle: "javascript 복습하기",
       isDone: 1,
       isLike: 0,
     },
     {
-      todoNo: todoNo++,
-      todoTitle: "react 복습하기",
+      infpNo: infpNo++,
+      infpTitle: "react 복습하기",
       isDone: 0,
       isLike: 0,
     },
     {
-      todoNo: todoNo++,
-      todoTitle: "이력서 쓰기",
+      infpNo: infpNo++,
+      infpTitle: "이력서 쓰기",
       isDone: 0,
       isLike: 1,
     },
@@ -34,30 +35,30 @@ const InfpAssemble = () => {
     // 기존 객체의 데이터를 바꾸고
     todo.isLike = changeStatus;
     // 변경한 기존 데이터를 깊은복사
-    const newArr = [...todoList];
+    const newArr = [...infpList];
     // 복사한걸 렌더링하게 set 해주기
-    setTodoList(newArr);
+    setInfpList(newArr);
   };
 
-  const todoDone = (todo) => {
+  const infpDone = (todo) => {
     console.log(todo);
     todo.isDone = 1;
-    setTodoList([...todoList]); //위의 changeLike의 과정을 짧게
+    setInfpList([...infpList]); //위의 changeLike의 과정을 짧게
   };
 
   const addTodo = (todoTitle) => {
     const todo = {
-      todoNo: todoNo++,
+      todoNo: infpNo++,
       todoTitle: todoTitle,
       isDone: 0,
       isLike: 0,
     };
-    const newArr = [...todoList];
+    const newArr = [...infpList];
     newArr.push(todo);
-    setTodoList(newArr);
+    setInfpList(newArr);
   };
 
-  const deleteTodo = (todoNo, index) => {
+  const deleteInfp = (todoNo, index) => {
     console.log("todoNo :" + todoNo);
     console.log("index :" + index);
 
@@ -69,12 +70,12 @@ const InfpAssemble = () => {
     // newArr.splice(index, 1);
 
     //filter이용하는방법 ///db에서 시퀀스번호 쓸거라 필터이용하는방법을 주로 사용
-    const newArr = todoList.filter((todo) => {
-      return todo.todoNo !== todoNo;
+    const newArr = infpList.filter((todo) => {
+      return todo.infpNo !== todoNo;
     });
 
     console.log(newArr);
-    setTodoList(newArr);
+    setInfpList(newArr);
   };
   return (
     <>
@@ -82,6 +83,12 @@ const InfpAssemble = () => {
         <h1 className="header-title">INFP 모여라~~!!</h1>
       </div>
       <InfpAddFrm></InfpAddFrm>
+      <InfpList
+        infpList={infpList}
+        changeLike={changeLike}
+        infpDone={infpDone}
+        deleteInfp={deleteInfp}
+      ></InfpList>
     </>
   );
 };
