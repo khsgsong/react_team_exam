@@ -1,5 +1,10 @@
 .content {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .content > h2 {
   font-family: Jua;
@@ -7,12 +12,13 @@
   color: #fff;
   margin-bottom: 70px;
 }
+
 .member-list {
+  display: flex;
   overflow: hidden;
 }
 .member-list > div {
   float: left;
-  padding: 0px 30px;
 }
 .member-name {
   margin-top: 30px;
@@ -20,7 +26,7 @@
   color: #fff;
   font-size: 30px;
 }
-.member-img {
-  width: 400px;
-  height: 400px;
+.member-img img {
+  width: 350px;
+  height: 350px;
 }
