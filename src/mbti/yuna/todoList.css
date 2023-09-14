@@ -7,8 +7,9 @@
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid #ff7777;
   overflow: hidden;
+  background-color: aliceblue;
 }
 .todo-list > ul > li {
   float: left;
@@ -20,21 +21,13 @@
 .text {
   width: 65%;
 }
-.done-text {
-  text-decoration: line-through;
+
+.clear{
+  color: #ff7777;
 }
-.done {
-  text-align: right;
-  width: 20%;
-}
-.like-icon,
-.remove-icon {
-  color: #ff1700;
+.like-icon {
+  /* color: aliceblue; */
   cursor: pointer;
   font-size: 20px;
 }
-.done-icon {
-  color: #4fd3c4;
-  cursor: pointer;
-  font-size: 20px;
-}
+

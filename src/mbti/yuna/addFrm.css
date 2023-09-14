@@ -12,12 +12,13 @@
   padding: 10px;
 }
 .todo-frm > input {
-  border: 1px solid #ccc;
+  border: 1px solid #ff7777;
+  
   width: 80%;
 }
 .todo-frm > button {
   width: 20%;
-  border: 1px solid #396afc;
-  background-color: #396afc;
-  color: #fff;
+  border: 1px solid #ff7777;
+  background-color: aliceblue;
+  color: #ff7777;
 }

@@ -1,14 +1,19 @@
 import "./enfpSubMEnu.css";
 import "./enfp.css";
+import ENFPHeader from "./ENFPHeader";
+import { useState } from "react";
 
 const EnfpLover = () => {
   return (
     <div className="enfpLover-wrap">
+      <ENFPHeader/>
       <div className="enfp-title">enfp궁합보기</div>
       <div className="content">
-        <div className="infoimg">
+      
+        <div className="infoimg-2">
           <img src="/img/enfploveee.jpg"></img>
         </div>
+        
         <div className="infoexpian">
           <p>
             INTJ와 ENFP궁합을 보자면 ENFP가 강아지처럼 다가가고 일을 벌이면

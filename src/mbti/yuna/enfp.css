@@ -22,7 +22,9 @@
   display: contents;
 }
 .enfp-title {
-  font-size: 24px;
+  padding-left: 170px;
+  padding-top: 100px;
+  font-size: 30px;
   font-weight: bold;
 }
 .enfp-info-title > h2 {
@@ -49,18 +51,35 @@
   text-align: center;
 }
 .infoimg > img {
+  padding-left: 200px;
+  padding-top: 500px;
+  width: 500px;
+  height: 400px;
+}
+.infoimg-2{
+  padding-left: 200px;
+  padding-top: 350px;
   width: 400px;
   height: 400px;
 }
-.infoexpian > ul > li > text {
+.infoexpian {
   text-align: left;
+  margin-left: 350px;
+}
+.infoexpian ul {
+overflow: hidden;
 }
 .infoexpian li {
   padding: 1em;
+  
+}
+.infoexpian li>div {
+  float: left;
 }
 .remove {
   display: none;
 }
 .infoexpian > p {
   text-align: center;
+  padding-top: 100px;
 }

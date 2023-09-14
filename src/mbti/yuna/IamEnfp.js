@@ -1,3 +1,4 @@
+import ENFPHeader from "./ENFPHeader";
 import "./enfp.css";
 {
   /*render() {
@@ -14,6 +15,8 @@ const IamEnfp = () => {
           <h2>ENFP</h2>
           <img src="/img/member3.png"></img>
         </div>*/}
+        <ENFPHeader/>
+        <div className="enfp-title">아이엠 enfp</div>
       </div>
       <div className="enfp-info-content">
         <div className="content">
@@ -33,11 +36,8 @@ const IamEnfp = () => {
               <li>step6. 외부 세계에 관심이 많아 새로운 시도를 좋아한다.</li>
               <li>step7. 감정이 상하더라도 회복이 매우 빠르다</li>
               <li>
-                step8. Ne(외향 직관)가 주기능 수준으로 강하기 때문에 상황을 깊게
-                분석하는 능력은 떨어지는 편이지만, 반비례로 상황을 정말 쉴
-                틈없이 파악하려는 성질이 약점을 보완하기 때문에 눈치가 빠른
-                편이고 당장 직관적으로 드러나는 분위기 파악을 상당히 잘한다.
-                그럼에도 눈치가 없는 척을 잘한다
+                step8. 눈치가 빠른편이고 당장 직관적으로 드러나는 분위기 파악을 
+                  상당히 잘한다.그럼에도 눈치가 없는 척을 잘한다
               </li>
               <li>step9. 밖에서는 활발하나 집에 오면 조용해진다</li>
               <li>step10. 즐겁게 놀다가도 불현듯 자아성찰을 많이 한다</li>

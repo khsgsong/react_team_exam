@@ -6,26 +6,27 @@ import { useState } from "react";
 import AddFrm from "./AddFrm";
 
 import TodoList from "./TodoList";
+import ENFPHeader from "./ENFPHeader";
 
 function EnfpZone() {
   let todoNo = 1;
   const [todoList, setTodoList] = useState([
     {
       todoNo: todoNo++,
-      todoTitle: "javascript 복습하기",
-      isDone: 1,
+      todoTitle: "저도 엔프피입돠~!",
+      
       isLike: 0,
     },
     {
       todoNo: todoNo++,
-      todoTitle: "react 복습하기",
-      isDone: 0,
+      todoTitle: "친해지고싶어여!!",
+     
       isLike: 0,
     },
     {
       todoNo: todoNo++,
-      todoTitle: "이력서 쓰기",
-      isDone: 0,
+      todoTitle: "오늘도 전 I 라고 자기전에 느꼈어여^^*",
+      
       isLike: 1,
     },
   ]);
@@ -36,15 +37,11 @@ function EnfpZone() {
     const newArr = [...todoList];
     setTodoList(newArr);
   };
-  const todoDone = (todo) => {
-    todo.isDone = 1;
-    setTodoList([...todoList]);
-  };
+ 
   const addTodo = (todoTitle) => {
     const todo = {
       todoNo: todoNo++,
       todoTitle: todoTitle,
-      isDone: 0,
       isLike: 0,
     };
     const newArr = [...todoList];
@@ -61,11 +58,11 @@ function EnfpZone() {
 
   return (
     <div className="wrap">
+      <ENFPHeader/>
       <AddFrm addTodo={addTodo} />
       <TodoList
         todoList={todoList}
         changeLike={changeLike}
-        todoDone={todoDone}
         deleteTodo={deleteTodo}
       />
     </div>

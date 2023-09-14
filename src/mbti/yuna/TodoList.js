@@ -3,7 +3,7 @@ import "./todoList.css";
 const TodoList = (props) => {
   const todoList = props.todoList;
   const changeLike = props.changeLike;
-  const todoDone = props.todoDone;
+  
   const deleteTodo = props.deleteTodo;
   return (
     <div className="todo-list">
@@ -13,7 +13,7 @@ const TodoList = (props) => {
             key={"todo" + index}
             todo={todo}
             changeLike={changeLike}
-            todoDone={todoDone}
+           
             deleteTodo={deleteTodo}
             index={index}
           />
@@ -25,7 +25,7 @@ const TodoList = (props) => {
 const Todo = (props) => {
   const todo = props.todo;
   const changeLike = props.changeLike;
-  const todoDone = props.todoDone;
+ 
   const deleteTodo = props.deleteTodo;
   const index = props.index;
   return (
@@ -40,27 +40,14 @@ const Todo = (props) => {
           {todo.isLike === 0 ? "favorite_border" : "favorite"}
         </span>
       </li>
-      {todo.isDone === 0 ? (
+      
         <li className="text">{todo.todoTitle}</li>
-      ) : (
-        <li className="text done-text">{todo.todoTitle}</li>
-      )}
+     
       <li className="done">
-        {todo.isDone === 0 ? (
-          <span
-            className="material-icons done-icon"
-            onClick={() => {
-              todoDone(todo);
-            }}
-          >
-            check_circle
-          </span>
-        ) : (
-          ""
-        )}
-
+        
         <span
-          className="material-icons remove-icon"
+          className="material-icons clear"
+          
           onClick={() => {
             deleteTodo(todo.todoNo, index);
           }}

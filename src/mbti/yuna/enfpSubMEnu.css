@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   position: sticky; /*사이드바 따라다니게*/
-  top: 0;
+  top: 300px;
 }
 .enfp-sub-menu > ul > li {
   list-style: none;
@@ -19,7 +19,7 @@
   color: aliceblue;
   font-weight: bold;
 }
-.enfp-sub-menu a:active {
+.enfp-sub-menu a.active {
   background-color: aliceblue;
   color: #ff7777;
 }
