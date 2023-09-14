@@ -8,9 +8,7 @@ function App() {
     <div className="wrap">
       <Routes>
         <Route path="/" element={<Main />}></Route>
-        <Route path="/member" element={<Member />}></Route>
-        {/* 임시재욱MBTI이동 */}
-        <Route path="/infp" element={<Infp></Infp>}></Route>
+        <Route path="/member/*" element={<Member />}></Route>
       </Routes>
     </div>
   );
