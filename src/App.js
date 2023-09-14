@@ -1,13 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Main from "./common/Main";
 import Member from "./common/Member";
+import Infp from "./mbti/JaeWookComponent/Infp";
 
 function App() {
   return (
     <div className="wrap">
       <Routes>
         <Route path="/" element={<Main />}></Route>
-        <Route path="/member" element={<Member />}></Route>
+        <Route path="/member/*" element={<Member />}></Route>
       </Routes>
     </div>
   );
