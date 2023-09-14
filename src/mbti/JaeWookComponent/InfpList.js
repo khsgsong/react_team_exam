@@ -51,7 +51,7 @@ const Infp = (props) => {
         <li className="text done-text">{infp.infpTitle}</li>
       )}
       <li className="done">
-        {infp.isDone === 0 ? (
+        {/* {infp.isDone === 0 ? (
           <span
             className="material-icons done-icon"
             onClick={() => {
@@ -62,7 +62,7 @@ const Infp = (props) => {
           </span>
         ) : (
           ""
-        )}
+        )} */}
 
         <span
           className="material-icons remove-icon"

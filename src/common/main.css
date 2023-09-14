@@ -8,9 +8,13 @@ body {
 
 .App {
   height: 100vh;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.main-text {
+  width: -webkit-fill-available;
 }
 h1 {
   height: 100px;
@@ -103,7 +107,10 @@ h1 span:nth-child(18) {
       0 0 35px #e4c161, 0 0 40px #e4c161, 0 0 50px #e4c161, 0 0 75px #e4c161;
   }
 }
-
+.neon_effect {
+  width: -webkit-fill-available;
+  margin-top: 300px;
+}
 .neon_effect > a {
   text-decoration-line: none;
 }
@@ -116,4 +123,54 @@ h1 span:nth-child(18) {
   color: #fff;
   font-family: Jua;
   animation: neon2 0.2s ease-in-out infinite alternate;
+}
+
+/*조명*/
+.circle1:hover {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 2px solid var(--color-texta);
+  background-color: rgba(254, 255, 170, 0.623);
+  background-size: cover;
+  transition-duration: 0.2s;
+}
+.circle2:hover {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 2px solid var(--color-texta);
+  background-color: rgba(254, 255, 170, 0.623);
+  background-size: cover;
+  transition-duration: 0.2s;
+}
+
+.circle3:hover {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 2px solid var(--color-texta);
+  background-color: rgba(254, 255, 170, 0.623);
+  background-size: cover;
+  transition-duration: 0.2s;
+}
+
+.circle4:hover {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 2px solid var(--color-texta);
+  background-color: rgba(254, 255, 170, 0.623);
+  background-size: cover;
+  transition-duration: 0.2s;
+}
+
+.circle5:hover {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 2px solid var(--color-texta);
+  background-color: rgba(254, 255, 170, 0.623);
+  background-size: cover;
+  transition-duration: 0.2s;
 }

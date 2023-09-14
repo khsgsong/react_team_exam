@@ -9,57 +9,57 @@ const InfpAssemble = () => {
   const [infpList, setInfpList] = useState([
     {
       infpNo: infpNo++,
-      infpTitle: "javascript 복습하기",
-      isDone: 1,
-      isLike: 0,
-    },
-    {
-      infpNo: infpNo++,
-      infpTitle: "react 복습하기",
+      infpTitle: "어셈블~",
       isDone: 0,
       isLike: 0,
     },
     {
       infpNo: infpNo++,
-      infpTitle: "이력서 쓰기",
+      infpTitle: "냉큼 모이시오!!",
+      isDone: 0,
+      isLike: 0,
+    },
+    {
+      infpNo: infpNo++,
+      infpTitle: "INFP는 이곳에 모이시오!",
       isDone: 0,
       isLike: 1,
     },
   ]);
 
   /// 인덱스 안쓰고 깊은복사로 데이터 바꾸는법
-  const changeLike = (todo) => {
+  const changeLike = (infp) => {
     // 현재 클릭한 todo 객체가 넘어옴
-    console.log(todo);
-    const changeStatus = todo.isLike === 0 ? 1 : 0;
+    console.log(infp);
+    const changeStatus = infp.isLike === 0 ? 1 : 0;
     // 기존 객체의 데이터를 바꾸고
-    todo.isLike = changeStatus;
+    infp.isLike = changeStatus;
     // 변경한 기존 데이터를 깊은복사
     const newArr = [...infpList];
     // 복사한걸 렌더링하게 set 해주기
     setInfpList(newArr);
   };
 
-  const infpDone = (todo) => {
-    console.log(todo);
-    todo.isDone = 1;
+  const infpDone = (infp) => {
+    console.log(infp);
+    infp.isDone = 1;
     setInfpList([...infpList]); //위의 changeLike의 과정을 짧게
   };
 
-  const addTodo = (todoTitle) => {
-    const todo = {
-      todoNo: infpNo++,
-      todoTitle: todoTitle,
+  const addInfp = (infpTitle) => {
+    const infp = {
+      infpNo: infpNo++,
+      infpTitle: infpTitle,
       isDone: 0,
       isLike: 0,
     };
     const newArr = [...infpList];
-    newArr.push(todo);
+    newArr.unshift(infp);
     setInfpList(newArr);
   };
 
-  const deleteInfp = (todoNo, index) => {
-    console.log("todoNo :" + todoNo);
+  const deleteInfp = (infpNo, index) => {
+    console.log("addInfpNo :" + infpNo);
     console.log("index :" + index);
 
     //newArr에서 todoNo or index를 이용해서 해당하는 객체를 삭제
@@ -70,8 +70,8 @@ const InfpAssemble = () => {
     // newArr.splice(index, 1);
 
     //filter이용하는방법 ///db에서 시퀀스번호 쓸거라 필터이용하는방법을 주로 사용
-    const newArr = infpList.filter((todo) => {
-      return todo.infpNo !== todoNo;
+    const newArr = infpList.filter((infp) => {
+      return infp.infpNo !== infpNo;
     });
 
     console.log(newArr);
@@ -82,7 +82,7 @@ const InfpAssemble = () => {
       <div className="header">
         <h1 className="header-title">INFP 모여라~~!!</h1>
       </div>
-      <InfpAddFrm></InfpAddFrm>
+      <InfpAddFrm addInfp={addInfp}></InfpAddFrm>
       <InfpList
         infpList={infpList}
         changeLike={changeLike}

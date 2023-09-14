@@ -12,14 +12,12 @@ const Member2 = () => {
     <>
       <Member2Header />
       <Member2Tab />
-      <div className="content">
-        <Routes>
-          <Route path="me" element={<Member2Me />}></Route>
-          <Route path="int" element={<Member2Int />}></Route>
-          <Route path="board" element={<Member2Board />}></Route>
-          <Route path="match" element={<Member2Match />}></Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="me" element={<Member2Me />}></Route>
+        <Route path="int" element={<Member2Int />}></Route>
+        <Route path="board" element={<Member2Board />}></Route>
+        <Route path="match" element={<Member2Match />}></Route>
+      </Routes>
     </>
   );
 };

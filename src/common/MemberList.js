@@ -20,12 +20,14 @@ const Member = (props) => {
   return (
     <div className="member">
       <div className="focus-main">
-        <div className="member-img">
-          <Link to={memberNo}>
-            <img src={member.img}></img>
-          </Link>
+        <div className={"circle" + memberNo}>
+          <div className="member-img">
+            <Link to={memberNo}>
+              <img src={member.img}></img>
+            </Link>
+          </div>
+          <div className="member-name">{member.memberName}</div>
         </div>
-        <div className="member-name">{member.memberName}</div>
       </div>
     </div>
   );
