@@ -1,0 +1,22 @@
+* {
+  font-family: jua;
+}
+.member1-side-menu {
+  width: 300px;
+}
+.member1-side-menu > ul {
+  margin: 0;
+  padding: 0;
+}
+.member1-side-menu > ul > li > a {
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.member1-side-menu a.active {
+  background-color: #fff;
+  color: #ff7777;
+}

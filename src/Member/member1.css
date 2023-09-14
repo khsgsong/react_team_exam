@@ -1,0 +1,23 @@
+.member1-all-wrap {
+  width: 1200px;
+  margin: 30px auto;
+}
+.member1-all-wrap > h2 {
+  color: #fff;
+}
+.member1-content-wrap {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.member1-content-wrap > div {
+  float: left;
+}
+.member1-content {
+  width: 900px;
+  box-sizing: border-box;
+  padding: 0px 50px;
+}
+.admin-title {
+  font-size: 24px;
+  font-weight: bold;
+}
