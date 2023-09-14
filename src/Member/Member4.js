@@ -3,6 +3,7 @@ import JaeWookSideMenu from "../mbti/JaeWookComponent/JaeWookSideMenu";
 import "./member4.css";
 import Infp from "../mbti/JaeWookComponent/Infp";
 import InfpAssemble from "../mbti/JaeWookComponent/InfpAssemble";
+import InfpAddFrm from "../mbti/JaeWookComponent/InfpAddFrm";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
           <Routes>
             <Route path="infp" element={<Infp></Infp>}></Route>
             <Route path="infpAssemble" element={<InfpAssemble />}></Route>
+            <Route path="infpAddFrm" element={<InfpAddFrm />}></Route>
           </Routes>
         </div>
       </div>
