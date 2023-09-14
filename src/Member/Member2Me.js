@@ -5,7 +5,7 @@ const Member2Me = () => {
     <>
       <div className="main-img">
         <div className="name">
-          <span>인류애 박살 명훈봇</span>
+          <span>고집만렙 명훈봇</span>
         </div>
         <div className="type">
           <span>INTJ</span>
