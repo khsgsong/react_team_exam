@@ -1,0 +1,35 @@
+.enfp-all-wrap {
+  width: 1200px;
+  margin: 30px auto;
+  text-align: center;
+}
+.enfp-all-wrap > h2 {
+  font-size: 50px;
+}
+.enfp-content-wrap {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.enfp-contnent div {
+  float: left;
+}
+
+.enfp-contnent {
+  width: 900px;
+  box-sizing: border-box;
+  padding: 0px 50px;
+}
+.enfp-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.enfp-info-title > h2 {
+  color: dodgerblue;
+}
+.enfp-info-title > img {
+  width: 300px;
+  height: 300px;
+}
+.infoexpian > ul > li {
+  list-style: none;
+}
