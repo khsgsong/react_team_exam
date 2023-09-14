@@ -28,7 +28,7 @@ const Member1Chemi = () => {
       <img src="/img/ISTJ최고의궁합.png" className="s-istj-img" alt=""></img>
       <div className="s-title">
         축하합니다
-        <span class="material-icons gold">celebration</span>
+        <span className="material-icons gold">celebration</span>
       </div>
       <ChemiList chemiList={chemiList} />
     </div>
@@ -43,8 +43,8 @@ const ChemiList = (props) => {
         <div className="s-rank">
           <span>{chemi.chemiNo}</span>
           <span>위</span>
-          <span class="padding-left">{chemi.mbti}</span>
-          <span class="padding-left">{chemi.comment}</span>
+          <span className="padding-left">{chemi.mbti}</span>
+          <span className="padding-left">{chemi.comment}</span>
         </div>
         <img className="s-chemi-img" src={chemi.img}></img>
       </div>
