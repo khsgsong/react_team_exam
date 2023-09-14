@@ -7,7 +7,8 @@ import InfpAssemble from "../mbti/JaeWookComponent/InfpAssemble";
 const Main = () => {
   return (
     <div className="content">
-      <h1>임시제목 재욱</h1>
+      <h1>INFP</h1>
+      <hr></hr>
       <div className="jaeWook-content-wrap">
         <JaeWookSideMenu></JaeWookSideMenu>
         <div className="jaeWook-content">
