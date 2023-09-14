@@ -1,11 +1,12 @@
 html,
 body {
+  width: 100vw;
+  height: 100vh;
   background: #ff7777;
   -webkit-font-smoothing: antialiased;
 }
 
 .App {
-  width: 100vw;
   height: 100vh;
   display: grid;
   justify-content: center;
