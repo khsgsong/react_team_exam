@@ -32,9 +32,23 @@
 .main-img {
   text-align: center;
   padding-top: 40px;
+  transition: 3s;
+}
+
+.main-img > .name {
+  padding: 5px;
+}
+
+.main-img > .name > span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-img > .type > span {
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .main-img > img {
   margin: 0 auto;
-  transition: 3s;
 }
