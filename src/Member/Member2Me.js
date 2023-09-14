@@ -11,6 +11,11 @@ const Member2Me = () => {
           <span>INTJ</span>
         </div>
         <img src="/img/intj-img.png"></img>
+        <div className="info">
+          <div className="name">이름 : 최명훈</div>
+          <div className="생년월일">생년월일 : 1991.02.05</div>
+          <div className="혈액형">혈액형 : AB형</div>
+        </div>
       </div>
     </>
   );
