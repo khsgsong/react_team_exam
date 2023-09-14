@@ -6,7 +6,7 @@ const JaeWookSideMenu = () => {
     <div className="jaeWook-side-menu">
       <ul>
         <li>
-          <Link to="infp">INFP를 소개합니다.</Link>
+          <Link to="infpIntroduce">INFP를 소개합니다.</Link>
         </li>
         <li>
           <Link to="infpAssemble">모여라!! INFP</Link>
