@@ -33,9 +33,6 @@ const Member = () => {
   return (
     <div className="content">
       <MemberList memberList={memberList} />
-      <Routes>
-        <Route path={memberList.memberNo} element={<Member />}></Route>
-      </Routes>
     </div>
   );
 };

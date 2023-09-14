@@ -15,7 +15,7 @@ const MemberList = (props) => {
 const Member = (props) => {
   const member = props.member;
   const memberNo = String(member.memberNo);
-  console.log(memberNo);
+
   return (
     <div className="member">
       <div className="member-img">
