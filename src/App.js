@@ -7,7 +7,7 @@ function App() {
     <div className="wrap">
       <Routes>
         <Route path="/" element={<Main />}></Route>
-        <Route path="/member" element={<Member />}></Route>
+        <Route path="/member/*" element={<Member />}></Route>
       </Routes>
     </div>
   );

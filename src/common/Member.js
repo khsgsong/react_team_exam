@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import MemberList from "./MemberList";
 
@@ -32,6 +33,9 @@ const Member = () => {
   return (
     <div className="content">
       <MemberList memberList={memberList} />
+      <Routes>
+        <Route path={memberList.memberNo} element={<Member />}></Route>
+      </Routes>
     </div>
   );
 };
