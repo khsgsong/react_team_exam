@@ -1,37 +1,22 @@
 import "./member2.css";
+import { Routes, Route } from "react-router-dom";
+import Member2Tab from "./Member2Tab";
+import Member2Me from "./Member2Me";
+import Member2Int from "./Member2Int";
+import Member2Board from "./Member2Board";
+import Member2Match from "./Member2Match";
 
 const Member2 = () => {
   return (
     <>
-      <div className="wrap">
-        <div className="title-wrap">
-          <h1 className="title">INTJ</h1>
-          <hr></hr>
-        </div>
-
-        <div className="tab">
-          <ul>
-            <li>
-              <a>INTJ 소개</a>
-            </li>
-            <li>
-              <a>INTJ 여기 모여라!</a>
-            </li>
-            <li>
-              <a>다른 MBTI의 궁합은?</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="main-img">
-          <div className="name">
-            <span>고집만렙 명훈봇</span>
-          </div>
-          <div className="type">
-            <span>INTJ</span>
-          </div>
-          <img src="../img/intj-img.png"></img>
-        </div>
+      <Member2Tab />
+      <div className="content">
+        <Routes>
+          <Route path="me" element={<Member2Me />}></Route>
+          <Route path="int" element={<Member2Int />}></Route>
+          <Route path="board" element={<Member2Board />}></Route>
+          <Route path="match" element={<Member2Match />}></Route>
+        </Routes>
       </div>
     </>
   );
