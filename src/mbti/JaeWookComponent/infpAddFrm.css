@@ -1,0 +1,24 @@
+.infp-frm {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  /* 위아래정렬 */
+  display: flex;
+  align-items: center;
+}
+.infp-frm > * {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.infp-frm > input {
+  border: 1px solid #ccc;
+  width: 80%;
+}
+.infp-frm > button {
+  width: 20%;
+  border: 1px solid #740000;
+  background-color: #740000;
+  color: #fff;
+}
