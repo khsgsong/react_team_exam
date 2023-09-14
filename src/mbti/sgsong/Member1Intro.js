@@ -1,6 +1,6 @@
-import "./intISTJ.css";
+import "./member1Intro.css";
 
-const IntISTJ = () => {
+const Member1Intro = () => {
   return (
     <div className="s-wrap">
       <div className="s-title">리액션 버튼 고장난 슬기봇</div>
@@ -11,4 +11,4 @@ const IntISTJ = () => {
   );
 };
 
-export default IntISTJ;
+export default Member1Intro;
