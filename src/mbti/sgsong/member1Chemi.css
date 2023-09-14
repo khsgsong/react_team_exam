@@ -1,0 +1,31 @@
+.s-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.s-title {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 31px;
+  font-weight: bold;
+  letter-spacing: -1.4px;
+}
+.s-istj-img {
+  width: 600px;
+}
+.gold {
+  color: gold;
+  margin-left: 10px;
+}
+.s-rank {
+  margin-top: 8px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.padding-left {
+  padding-left: 10px;
+}
+.s-chemi-img {
+  width: 400px;
+}

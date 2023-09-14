@@ -74,7 +74,7 @@ const InputBox = (props) => {
     }
   };
   return (
-    <div className="input-box">
+    <div className="s-input-box">
       <input
         type="text"
         className="input"
@@ -94,7 +94,7 @@ const ListBox = (props) => {
   const changeLike = props.changeLike;
   const deleteBoard = props.deleteBoard;
   return (
-    <div className="board-list">
+    <div className="s-board-list">
       {boardList.map((board, index) => {
         return (
           <Board
@@ -116,7 +116,7 @@ const Board = (props) => {
   return (
     <ul>
       <Likes isLike={board.isLike} changeLike={changeLike} board={board} />
-      <li className="text">{board.boardTitle}</li>
+      <li className="s-text">{board.boardTitle}</li>
       <IsDone board={board} deleteBoard={deleteBoard} />
     </ul>
   );
@@ -127,9 +127,9 @@ const Likes = (props) => {
   const changeLike = props.changeLike;
   const board = props.board;
   return (
-    <li className="likes">
+    <li className="s-likes">
       <span
-        className="material-icons like-icon"
+        className="material-icons s-like-icon"
         onClick={() => {
           changeLike(board);
         }}
@@ -144,9 +144,9 @@ const IsDone = (props) => {
   const board = props.board;
   const deleteBoard = props.deleteBoard;
   return (
-    <li className="done">
+    <li className="s-done">
       <span
-        className="material-icons remove-icon"
+        className="material-icons s-remove-icon"
         onClick={() => {
           deleteBoard(board.boardNo);
         }}

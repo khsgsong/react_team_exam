@@ -4,8 +4,12 @@ import Member1SideMenu from "../mbti/sgsong/Member1SideMenu";
 import Member1Intro from "../mbti/sgsong/Member1Intro";
 import Member1Board from "../mbti/sgsong/Member1Board";
 import Member1Chemi from "../mbti/sgsong/Member1Chemi";
+import { useEffect } from "react";
 
 const Member1 = () => {
+  useEffect(() => {
+    document.querySelectorAll(".member1-side-menu a")[0].click();
+  }, []);
   return (
     <div className="member1-all-wrap">
       <h2>세상의 소금형 ISTJ</h2>
