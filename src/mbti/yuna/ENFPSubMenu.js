@@ -13,6 +13,11 @@ const EnfpSubMenu = () => {
     <div className="enfp-sub-menu">
       <ul>
         <li>
+          <Link to="iamenfp" onClick={activeMemu}>
+            I AM ENFP
+          </Link>
+        </li>
+        <li>
           <Link to="enfpzone" onClick={activeMemu}>
             ENFP모여라
           </Link>
@@ -27,3 +32,4 @@ const EnfpSubMenu = () => {
   );
 };
 export default EnfpSubMenu;
+//export { EnfpSubMenu, activeMemu };

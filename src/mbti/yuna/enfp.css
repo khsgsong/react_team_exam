@@ -1,17 +1,18 @@
 .enfp-all-wrap {
   width: 1200px;
-  margin: 30px auto;
+  margin: 0 auto;
   text-align: center;
 }
 .enfp-all-wrap > h2 {
   font-size: 50px;
 }
+/*
 .enfp-content-wrap {
   overflow: hidden;
-  padding-top: 50px;
-}
+  padding-top: 150px;
+}*/
 .enfp-contnent div {
-  float: left;
+  /* float: left;*/
 }
 
 .enfp-contnent {
@@ -24,7 +25,10 @@
   font-weight: bold;
 }
 .enfp-info-title > h2 {
-  color: dodgerblue;
+  color: aliceblue;
+}
+.enfp-info-title > h1 {
+  color: aliceblue;
 }
 .enfp-info-title > img {
   width: 300px;
@@ -32,4 +36,30 @@
 }
 .infoexpian > ul > li {
   list-style: none;
+  color: aliceblue;
+}
+.enfp-info-content {
+  display: block;
+}
+.content {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.infoimg > img {
+  width: 400px;
+  height: 400px;
+}
+.infoexpian > ul > li > text {
+  text-align: left;
+}
+.infoexpian li {
+  padding: 1em;
+}
+.remove {
+  display: none;
+}
+.infoexpian > p {
+  text-align: center;
 }
