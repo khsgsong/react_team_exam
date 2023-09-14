@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./infpAssemble.css";
+import InfpAddFrm from "./InfpAddFrm";
 
 const InfpAssemble = () => {
   let todoNo = 1;
@@ -76,9 +77,12 @@ const InfpAssemble = () => {
     setTodoList(newArr);
   };
   return (
-    <div className="header">
-      <h1 className="header-title">INFP 모여라~~!!</h1>
-    </div>
+    <>
+      <div className="header">
+        <h1 className="header-title">INFP 모여라~~!!</h1>
+      </div>
+      <InfpAddFrm></InfpAddFrm>
+    </>
   );
 };
 
