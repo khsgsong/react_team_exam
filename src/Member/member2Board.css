@@ -1,0 +1,26 @@
+.board-frm {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.board-frm > * {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.board-frm > input {
+  border: 1px solid #ccc;
+  width: 80%;
+}
+
+.board-frm > button {
+  width: 20%;
+  border: 1px solid #203a43;
+  background-color: #203a43;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.jaeWook-side-menu {
+  float: left;
+  width: 300px;
+  background-color: aqua;
+}
+.jaeWook-side-menu > ul > li {
+  list-style-type: none;
+}
+.jaeWook-side-menu a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 20px;
+}

@@ -1,0 +1,44 @@
+.infp-list {
+  width: 700px;
+  margin: 0 auto;
+}
+.infp-list > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  /* 옆으로 붙이기 */
+  overflow: hidden;
+}
+.infp-list > ul > li {
+  float: left;
+}
+.likes {
+  width: 15%;
+  text-align: center;
+}
+.text {
+  width: 65%;
+}
+.done-text {
+  /* 취소선 긋기 */
+  text-decoration: line-through;
+}
+.done {
+  /* 오른쪽끝으로 아이콘 붙이기 */
+  text-align: right;
+  width: 20%;
+}
+
+.like-icon,
+.remove-icon {
+  color: #ff1700;
+  cursor: pointer;
+  font-size: 20px;
+}
+.done-icon {
+  color: #4fd3c4;
+  cursor: pointer;
+  font-size: 20px;
+}
