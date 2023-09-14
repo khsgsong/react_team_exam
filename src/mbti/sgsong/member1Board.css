@@ -1,31 +1,31 @@
-.input-box {
+.s-input-box {
   width: 700px;
   margin: 0 auto;
   padding: 50px;
   display: flex;
   align-items: center;
 }
-.input-box > * {
+.s-input-box > * {
   box-sizing: border-box;
   outline: none;
   border: none;
   padding: 10px;
 }
-.input-box > input {
+.s-input-box > input {
   width: 80%;
 }
-.input-box > button {
+.s-input-box > button {
   width: 20%;
   background: #282828;
   color: #fff;
   cursor: pointer;
   font-size: 14px;
 }
-.board-list {
+.s-board-list {
   width: 700px;
   margin: 0 auto;
 }
-.board-list > ul {
+.s-board-list > ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -33,23 +33,23 @@
   border: 1px solid #fff;
   overflow: hidden;
 }
-.board-list > ul > li {
+.s-board-list > ul > li {
   float: left;
 }
-.likes {
+.s-likes {
   width: 15%;
   text-align: center;
 }
-.text {
+.s-text {
   width: 65%;
   color: #fff;
 }
-.done {
+.s-done {
   width: 20%;
   text-align: right;
 }
-.like-icon,
-.remove-icon {
+.s-like-icon,
+.s-remove-icon {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
