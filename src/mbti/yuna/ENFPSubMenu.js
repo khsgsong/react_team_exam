@@ -1,10 +1,10 @@
 import "./enfpSubMEnu.css";
 import { Link } from "react-router-dom";
 
-const enfpSubMenu = () => {
+const EnfpSubMenu = () => {
   const activeMemu = (e) => {
-    const menu = document.querySelectorAll(".enfp-sub-menu a");
-    menu.forEach((item) => {
+    const menus = document.querySelectorAll(".enfp-sub-menu a");
+    menus.forEach((item) => {
       item.classList.remove("active");
     });
     e.currentTarget.classList.add("active");
@@ -26,4 +26,4 @@ const enfpSubMenu = () => {
     </div>
   );
 };
-export default enfpSubMenu;
+export default EnfpSubMenu;

@@ -5,16 +5,19 @@
   margin: 0;
   padding: 0;
 }
+.enfp-sub-menu > ul > li {
+  list-style: none;
+}
 .enfp-sub-menu > ul > li > a {
   box-sizing: border-box;
   display: block;
   text-decoration: none;
   padding: 15px;
   border: 1px solid #ccc;
-  color: darkslategray;
+  color: dodgerblue;
   font-weight: bold;
 }
-.enfp-sub-menu a.active {
-  background-color: cadetblue;
+.enfp-sub-menu a:active {
+  background-color: dodgerblue;
   color: #ccc;
 }
