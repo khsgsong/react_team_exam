@@ -8,11 +8,12 @@ const EnfpMain = () => {
       <div className="enfp-content-wrap">
         <div className="enfp-contnent">
           <Routes>
-            <Route path="enfpzone" element={}>ENFP모여라</Route>
-            <Route path="enfplover" element={}>ENFP궁합확인</Route>
+            <Route path="enfpzone" element={}></Route>
+            <Route path="enfplover" element={}></Route>
           </Routes>
         </div>
       </div>
     </div>
   );
 };
+export default EnfpMain;

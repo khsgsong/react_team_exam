@@ -1,0 +1,17 @@
+.enfp-all-wrap {
+  width: 1200px;
+  margin: 30px auto;
+}
+.enfp-content-wrap {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.enfp-contnent div {
+  float: left;
+}
+
+.enfp-contnent {
+  width: 900px;
+  box-sizing: border-box;
+  padding: 0px 50px;
+}

@@ -1,0 +1,20 @@
+.enfp-sub-menu {
+  width: 300px;
+}
+.enfp-sub-menu {
+  margin: 0;
+  padding: 0;
+}
+.enfp-sub-menu > ul > li > a {
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid #ccc;
+  color: darkslategray;
+  font-weight: bold;
+}
+.enfp-sub-menu a.active {
+  background-color: cadetblue;
+  color: #ccc;
+}
