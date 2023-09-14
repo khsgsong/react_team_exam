@@ -10,7 +10,7 @@ const Member2Me = () => {
         <div className="type">
           <span>INTJ</span>
         </div>
-        <img src="./img/intj-img.png"></img>
+        <img src="/img/intj-img.png"></img>
       </div>
     </>
   );

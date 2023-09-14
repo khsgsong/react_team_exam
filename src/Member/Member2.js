@@ -5,10 +5,12 @@ import Member2Me from "./Member2Me";
 import Member2Int from "./Member2Int";
 import Member2Board from "./Member2Board";
 import Member2Match from "./Member2Match";
+import Member2Header from "./Member2Header";
 
 const Member2 = () => {
   return (
     <>
+      <Member2Header />
       <Member2Tab />
       <div className="content">
         <Routes>
