@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const MemberList = (props) => {
   const memberList = props.memberList;
   return (
@@ -12,11 +14,14 @@ const MemberList = (props) => {
 //멤버
 const Member = (props) => {
   const member = props.member;
-
+  const memberNo = String(member.memberNo);
+  console.log(memberNo);
   return (
     <div className="member">
       <div className="member-img">
-        <img src={member.img}></img>
+        <Link to={memberNo}>
+          <img src={member.img}></img>
+        </Link>
       </div>
       <div className="member-name">{member.memberName}</div>
     </div>
