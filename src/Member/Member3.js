@@ -14,7 +14,7 @@ const EnfpMain = () => {
       <div className="enfp-content-wrap">
         <EnfpSubMenu />
         <div className="enfp-info-wrap">
-          <div className="enfp-info-title">
+          <div className="enfp-info-title remove">
             <h1>도파민 추구 안절부절 유나봇</h1>
             <h2>ENFP</h2>
             <img src="/img/member3.png"></img>

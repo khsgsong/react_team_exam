@@ -10,15 +10,16 @@
 .enfp-content-wrap {
   overflow: hidden;
   padding-top: 150px;
-}*/
-.enfp-contnent div {
-  /* float: left;*/
 }
+.enfp-contnent div {
+  float: left;
+}*/
 
 .enfp-contnent {
   width: 900px;
   box-sizing: border-box;
   padding: 0px 50px;
+  display: contents;
 }
 .enfp-title {
   font-size: 24px;
