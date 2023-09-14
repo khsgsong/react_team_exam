@@ -1,6 +1,6 @@
-import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import MemberList from "./MemberList";
+import "./member.css";
 
 const Member = () => {
   const [memberList, setMemberList] = useState([
@@ -30,8 +30,10 @@ const Member = () => {
       img: "/img/member5.png",
     },
   ]);
+
   return (
     <div className="content">
+      <h2>멤버를 클릭해 주세요</h2>
       <MemberList memberList={memberList} />
     </div>
   );
