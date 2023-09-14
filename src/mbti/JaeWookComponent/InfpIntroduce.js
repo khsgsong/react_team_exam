@@ -1,6 +1,6 @@
-import "./infp.css";
+import "./infpIntroduce.css";
 
-const Infp = () => {
+const InfpIntroduce = () => {
   return (
     <div className="infp">
       <div className="infp-title-wrap">
@@ -32,4 +32,4 @@ const Infp = () => {
   );
 };
 
-export default Infp;
+export default InfpIntroduce;
