@@ -1,0 +1,49 @@
+.board-list {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.board-list > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.board-list > ul > li {
+  float: left;
+}
+
+.likes {
+  width: 15%;
+  text-align: left;
+}
+
+.text {
+  width: 65%;
+}
+
+.done-text {
+  text-decoration: line-through;
+}
+
+.done {
+  text-align: right;
+  width: 20%;
+}
+
+.like-icon,
+.remove-icon {
+  color: #ff1700;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.done-icon {
+  color: #4fd3c4;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
