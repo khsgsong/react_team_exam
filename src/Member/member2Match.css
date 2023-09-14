@@ -1,0 +1,86 @@
+.match-wrap > div {
+  position: relative;
+}
+
+.browser {
+  position: absolute;
+  font-size: 30px;
+  left: 720px;
+  top: 50px;
+}
+
+.match-wrap > img {
+  position: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.intj {
+  position: absolute;
+  left: 620px;
+  top: 180px;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.enfp {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.entp {
+  position: absolute;
+  top: 360px;
+  left: 300px;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.istj {
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.isfj {
+  position: absolute;
+  top: 360px;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.intjComment {
+  position: absolute;
+  font-size: 20px;
+}
+
+.good1 {
+  top: 540px;
+  left: 590px;
+}
+
+.good2 {
+  top: 360px;
+  left: 590px;
+}
+
+.bad1 {
+  right: 480px;
+  top: 540px;
+}
+
+.bad2 {
+  right: 490px;
+  top: 360px;
+}
