@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./jaeWookSideMenu.css";
 
 const JaeWookSideMenu = () => {
   return (
@@ -7,7 +8,9 @@ const JaeWookSideMenu = () => {
         <li>
           <Link to="infp">INFP를 소개합니다.</Link>
         </li>
-        <li>모여라 todo</li>
+        <li>
+          <Link to="infpAssemble">모여라!! INFP</Link>
+        </li>
         <li>잘맞는 mbti는?</li>
       </ul>
     </div>

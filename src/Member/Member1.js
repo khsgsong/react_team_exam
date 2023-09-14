@@ -8,7 +8,7 @@ import Member1Chemi from "../mbti/sgsong/Member1Chemi";
 const Member1 = () => {
   return (
     <div className="member1-all-wrap">
-      <h2>ISTJ</h2>
+      <h2>세상의 소금형 ISTJ</h2>
       <hr></hr>
       <div className="member1-content-wrap">
         <Member1SideMenu />
