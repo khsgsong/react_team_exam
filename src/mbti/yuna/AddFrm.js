@@ -22,7 +22,7 @@ const AddFrm = (props) => {
     }
   };
   return (
-    <div className="todo-frm">
+    <div className="e-frm">
       <input
         type="text"
         placeholder="당신의 엔프피 모먼트를 알려주세여:)"

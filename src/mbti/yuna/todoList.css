@@ -1,9 +1,10 @@
-.todo-list {
+.e-list {
   width: 700px;
   margin: 0 auto;
-  padding-left: 200px;
+  padding-left: 50px;
+  padding-bottom: 300px;
 }
-.todo-list > ul {
+.e-list > ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -12,19 +13,23 @@
   overflow: hidden;
   background-color: aliceblue;
 }
-.todo-list > ul > li {
+.e-list > ul > li {
   float: left;
 }
-.likes {
+.elikes {
   width: 15%;
-  text-align: center;
 }
-.text {
+.etext {
   width: 65%;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
 }
 
 .clear {
   color: #ff7777;
+  cursor: pointer;
+  text-align: right;
 }
 .like-icon {
   /* color: aliceblue; */
