@@ -1,24 +1,27 @@
-.todo-frm {
+.e-frm {
   width: 700px;
   margin: 0 auto;
-  padding-left: 200px;
+  padding-left: 50px;
   display: flex;
   align-items: center;
   padding-bottom: 50px;
 }
-.todo-frm > * {
+.e-frm > * {
   box-sizing: border-box;
   outline: none;
   border: none;
   padding: 10px;
 }
-.todo-frm > input {
+.e-frm > input {
   border: 1px solid #ff7777;
+  min-height: 70px;
+  font-size: 20px;
 
   width: 80%;
 }
-.todo-frm > button {
+.e-frm > button {
   width: 20%;
+  min-height: 70px;
   border: 1px solid #ff7777;
   background-color: aliceblue;
   color: #ff7777;

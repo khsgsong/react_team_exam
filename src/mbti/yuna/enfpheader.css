@@ -5,4 +5,5 @@
   border-bottom: 1px solid aliceblue;
   text-align: center;
   height: 50px;
+  box-sizing: border-box;
 }

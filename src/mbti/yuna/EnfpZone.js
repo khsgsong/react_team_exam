@@ -58,11 +58,12 @@ function EnfpZone() {
 
   return (
     <div className="enfp-all-wrap">
-      <ENFPHeader />
-      <div className="enfp-title">enfp 모여라~!</div>
-      <div className="enfp-contnent">
-        <div className="enfp-contentZ">
+      <div className="enfp-info-wrap">
+        <ENFPHeader />
+        <div className="enfp-title">enfp 모여라~!</div>
+        <div className="enfp-contentz">
           <AddFrm addTodo={addTodo} />
+          <StarInput />
           <TodoList
             todoList={todoList}
             changeLike={changeLike}

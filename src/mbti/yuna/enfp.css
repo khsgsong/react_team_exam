@@ -6,14 +6,9 @@
 .enfp-all-wrap > h2 {
   font-size: 50px;
 }
-/*
-.enfp-content-wrap {
-  overflow: hidden;
-  padding-top: 150px;
+.enfp-info-wrap {
+  padding-left: 250px;
 }
-.enfp-contnent div {
-  float: left;
-}*/
 
 .enfp-contnent {
   width: 900px;
@@ -25,7 +20,7 @@
 }
 .enfp-title {
   color: aliceblue;
-  padding-left: 250px;
+  padding-left: 40px;
   padding-top: 100px;
   padding-bottom: 50px;
   font-size: 30px;
@@ -47,23 +42,24 @@
 }
 .enfp-info-content {
   display: block;
+  color: aliceblue;
 }
 
 .infoimg > img {
-  padding-left: 250px;
+  padding-left: 320px;
   padding-top: 50px;
   width: 500px;
   height: 400px;
 }
-.infoimg-2 {
-  padding-left: 500px;
+.infoimg-2 > img {
   padding-top: 50px;
-  width: 400px;
   height: 400px;
+  padding-left: 200px;
 }
 .infoexpian {
-  text-align: left;
+  text-align: center;
   margin-left: 350px;
+  color: aliceblue;
 }
 .infoexpian ul {
   overflow: hidden;
@@ -89,4 +85,17 @@
 }
 .zone-title > p {
   padding-left: 100px;
+}
+.enfp-content-2 {
+  width: 900px;
+  box-sizing: border-box;
+  padding-right: 50px;
+  padding-bottom: 300px;
+}
+.infoexpian2 > p {
+  color: aliceblue;
+  box-sizing: border-box;
+  padding-left: 200px;
+  text-align: center;
+  padding-top: 100px;
 }
