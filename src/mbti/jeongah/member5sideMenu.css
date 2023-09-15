@@ -1,0 +1,21 @@
+.member5-side-menu {
+  width: 300px;
+}
+.member5-side-menu > ul {
+  margin: 0;
+  padding: 0;
+}
+.member5-side-menu > ul > li > a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.member5-side-menu a.active {
+  background-color: #fff;
+  color: #ff7777;
+}
