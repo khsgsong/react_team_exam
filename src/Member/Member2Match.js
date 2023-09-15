@@ -67,12 +67,12 @@ const Member2Match = () => {
           <span>궁합 : ❤️❤️❤️❤️❤️</span>
         </div>
         <div className="intjComment bad1">
-          <h3>ISFJ - INTJ</h3>
+          <h3>INTJ - ISFJ</h3>
           꺼져!🖕<br></br>
           <span>궁합 : ❤️🤍🤍🤍🤍</span>
         </div>
         <div className="intjComment bad2">
-          <h3>ISTJ - INTJ</h3>
+          <h3>INTJ - ISTJ</h3>
           퉤!👿<br></br>
           <span>궁합 : ❤️🤍🤍🤍🤍</span>
         </div>
