@@ -24,23 +24,27 @@
   margin-top: 0;
   height: 130px;
 }
-.s-tag {
+.s-istj-tag {
   margin-top: 7px;
   font-size: 20px;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: -1.2px;
 }
-.star-rate {
+.s-character {
+  padding-right: 20px;
+}
+.s-star-rate {
   margin-top: 5px;
 }
-.star-rate > span {
+.s-star-rate > span {
   padding-left: 10px;
   font-size: 18px;
 }
-.star-rate > .material-icons {
-  color: gold;
+.s-star-rate > span.material-icons {
+  color: #ffff66;
+  letter-spacing: -8px;
 }
-.s-info {
+.s-istj-info {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }

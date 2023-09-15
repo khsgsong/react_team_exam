@@ -4,7 +4,7 @@ const TodoList = (props) => {
   const deleteTodo = props.deleteTodo;
   const index = props.index;
   return (
-    <div className="todo-list">
+    <div className="member5-list">
       {todoList.map((todo, index) => {
         return (
           <Todo

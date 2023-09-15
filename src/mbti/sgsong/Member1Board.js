@@ -44,7 +44,7 @@ const Member1Board = () => {
   };
   return (
     <div className="s-wrap">
-      <div className="s-title">ISTJ 모여라</div>
+      <div className="s-title">ISTJ 여기 모여라!</div>
       <InputBox addBoard={addBoard} />
       <ListBox
         boardList={boardList}
@@ -83,7 +83,7 @@ const InputBox = (props) => {
         onKeyUp={enterCheck}
       ></input>
       <button className="add-btn" onClick={regist}>
-        등록하기
+        입력하기
       </button>
     </div>
   );
@@ -151,7 +151,7 @@ const IsDone = (props) => {
           deleteBoard(board.boardNo);
         }}
       >
-        delete_outline
+        delete_forever
       </span>
     </li>
   );

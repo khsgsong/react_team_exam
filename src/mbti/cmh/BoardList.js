@@ -31,9 +31,9 @@ const Board = (props) => {
   const index = props.index;
   return (
     <ul>
-      <li className="likes">
+      <li className="likes1">
         <span
-          className="material-icons like-icon"
+          className="material-icons like-icon1"
           onClick={() => {
             changeLike(board);
           }}
@@ -42,14 +42,14 @@ const Board = (props) => {
         </span>
       </li>
       {board.isDone === 0 ? (
-        <li className="text">{board.boardTitle}</li>
+        <li className="text1">{board.boardTitle}</li>
       ) : (
-        <li className="text done-text">{board.boardTitle}</li>
+        <li className="text1 done-text1">{board.boardTitle}</li>
       )}
-      <li className="done">
+      <li className="done1">
         {board.isDone === 0 ? (
           <span
-            className="material-icons done-icon"
+            className="material-icons done-icon1"
             onClick={() => {
               checkDone(board);
             }}
@@ -61,7 +61,7 @@ const Board = (props) => {
         )}
 
         <span
-          className="material-icons remove-icon"
+          className="material-icons remove-icon1"
           onClick={() => {
             deleteBoard(board.boardNo, index);
           }}

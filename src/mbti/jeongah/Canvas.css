@@ -1,0 +1,30 @@
+.canvas_wrap {
+  position: relative;
+  padding-left: 30px;
+}
+.m5luck {
+  padding-left: 193px;
+  font-size: 50px;
+  padding-bottom: 30px;
+  color: #faffb5;
+}
+canvas {
+  border: 3px solid red;
+  position: relative;
+}
+.result {
+  position: absolute;
+  top: 104px;
+  left: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 300px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: rgb(255, 216, 222);
+  flex-direction: column;
+  letter-spacing: 10px;
+  color: #faffb5;
+}

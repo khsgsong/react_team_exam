@@ -5,7 +5,26 @@ import BoardList from "../mbti/cmh/BoardList";
 
 const Member2Board = () => {
   let boardNo = 1;
-  const [boardList, setBoardList] = useState([]);
+  const [boardList, setBoardList] = useState([
+    {
+      boardNo: boardNo++,
+      boardTitle: "INTJ입니다!",
+      isDone: 0,
+      isLike: 1,
+    },
+    {
+      boardNo: boardNo++,
+      boardTitle: "굳굳",
+      isDone: 0,
+      isLike: 1,
+    },
+    {
+      boardNo: boardNo++,
+      boardTitle: "ㅎㅇ",
+      isDone: 1,
+      isLike: 0,
+    },
+  ]);
 
   const changeLike = (board) => {
     const changeStatus = board.isLike === 0 ? 1 : 0;

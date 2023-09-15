@@ -19,7 +19,7 @@ const Member1SideMenu = () => {
         </li>
         <li>
           <Link to="board" onClick={activeMenu}>
-            ISTJ 모여라
+            ISTJ 여기 모여라!
           </Link>
         </li>
         <li>
