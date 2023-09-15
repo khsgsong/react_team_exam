@@ -63,7 +63,6 @@ function EnfpZone() {
         <div className="enfp-title">enfp 모여라~!</div>
         <div className="enfp-contentz">
           <AddFrm addTodo={addTodo} />
-          <StarInput />
           <TodoList
             todoList={todoList}
             changeLike={changeLike}
