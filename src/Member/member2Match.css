@@ -1,4 +1,89 @@
-.match-wrap > div {
+.matchImg,
+.browser,
+.intjComment {
+  position: absolute;
+}
+
+.matchImg {
+  object-fit: cover;
+  width: 400px;
+}
+
+.intjComment {
+  font-size: 20px;
+  text-align: center;
+}
+
+.intjComment > span {
+  font-size: 14px;
+}
+
+.browser {
+  font-size: 30px;
+  top: 200px;
+  left: 1000px;
+  transform: rotate(-15deg);
+  cursor: pointer;
+}
+
+.browser > .clickText {
+  font-size: 20px;
+  color: yellow;
+  letter-spacing: 0.1cm;
+}
+
+.browser > a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: #fff; /* 링크의 색상 제거 */
+}
+
+.matchIntj {
+  top: 280px;
+  left: 900px;
+}
+
+.matchEnfp {
+  left: 480px;
+  top: 50px;
+}
+
+.matchEntp {
+  left: 480px;
+  top: 450px;
+}
+
+.matchIstj {
+  top: 30px;
+  right: 200px;
+}
+
+.matchIsfj {
+  top: 350px;
+  right: 200px;
+}
+
+.good1 {
+  text-align: center;
+  top: 660px;
+  left: 810px;
+}
+
+.good2 {
+  top: 400px;
+  left: 810px;
+}
+
+.bad1 {
+  top: 660px;
+  right: 520px;
+}
+
+.bad2 {
+  top: 400px;
+  right: 520px;
+}
+
+/* .match-wrap > div {
   position: relative;
 }
 
@@ -83,4 +168,4 @@
 .bad2 {
   right: 490px;
   top: 360px;
-}
+} */

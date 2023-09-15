@@ -16,32 +16,32 @@
   float: left;
 }
 
-.likes {
+.likes1 {
   width: 15%;
   text-align: left;
 }
 
-.text {
+.text1 {
   width: 65%;
 }
 
-.done-text {
+.done-text1 {
   text-decoration: line-through;
 }
 
-.done {
+.done1 {
   text-align: right;
   width: 20%;
 }
 
-.like-icon,
-.remove-icon {
+.like-icon1,
+.remove-icon1 {
   color: #ff1700;
   cursor: pointer;
   font-size: 20px;
 }
 
-.done-icon {
+.done-icon1 {
   color: #4fd3c4;
   padding-right: 5px;
   cursor: pointer;
