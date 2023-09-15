@@ -19,3 +19,12 @@
   width: 100%;
   height: 100%;
 }
+
+.personality-type > .title {
+  font-size: 24px;
+}
+.wise-saying {
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 3px solid #fff;
+}

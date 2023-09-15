@@ -46,7 +46,7 @@ const InfpAddFrm = (props) => {
         // 키보드 엔터 눌럿을때
         onKeyUp={enterCheck}
       ></input>
-      <button className="btn" onClick={regist}>
+      <button className="infp-btn" onClick={regist}>
         등록하기
       </button>
     </div>
