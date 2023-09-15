@@ -11,7 +11,9 @@ const JaeWookSideMenu = () => {
         <li>
           <Link to="infpAssemble">모여라!! INFP</Link>
         </li>
-        <li>잘맞는 mbti는?</li>
+        <li>
+          <Link to="infpCombi">잘맞는 mbti는?</Link>
+        </li>
       </ul>
     </div>
   );

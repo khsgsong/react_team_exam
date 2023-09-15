@@ -79,7 +79,7 @@ const InfpAssemble = () => {
   };
   return (
     <>
-      <div className="header">
+      <div className="infpHeader">
         <h1 className="header-title">INFP 모여라~~!!</h1>
       </div>
       <InfpAddFrm addInfp={addInfp}></InfpAddFrm>
