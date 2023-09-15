@@ -5,6 +5,8 @@
 }
 .jaeWook-content-wrap {
   width: 1200px;
+  /* content높이에 맞추기위해 설정 */
+  height: 100vh;
 }
 .jaeWook-content {
   margin-top: 10px;

@@ -3,11 +3,14 @@ import "./infpCombi.css";
 const InfpCombi = () => {
   return (
     <>
-      <div>
-        <img src={"/img/member4/infp-character.jpg"}></img>
+      <div className="infp-img-box">
+        <img
+          className="infp-character"
+          src={"/img/member4/infp-character.jpg"}
+        ></img>
       </div>
-      <div>
-        <img src={"/img/member4/mbti-궁합.png"}></img>
+      <div className="infp-img-box">
+        <img className="mbti-궁합" src={"/img/member4/mbti-궁합.png"}></img>
       </div>
       <div>천생연분 : ENFJ, ENTJ</div>
       <div>
