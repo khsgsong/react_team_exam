@@ -83,7 +83,7 @@ const InputBox = (props) => {
         onKeyUp={enterCheck}
       ></input>
       <button className="add-btn" onClick={regist}>
-        등록하기
+        입력하기
       </button>
     </div>
   );
@@ -151,7 +151,7 @@ const IsDone = (props) => {
           deleteBoard(board.boardNo);
         }}
       >
-        delete_outline
+        delete_forever
       </span>
     </li>
   );
