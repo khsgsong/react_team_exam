@@ -25,6 +25,7 @@ const AddFrm = (props) => {
     <div className="todo-frm">
       <input
         type="text"
+        placeholder="당신의 엔프피 모먼트를 알려주세여:)"
         className="input"
         value={todoTitle}
         onChange={changeTitle}

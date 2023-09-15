@@ -1,6 +1,7 @@
 .todo-list {
   width: 700px;
   margin: 0 auto;
+  padding-left: 200px;
 }
 .todo-list > ul {
   list-style-type: none;
@@ -22,7 +23,7 @@
   width: 65%;
 }
 
-.clear{
+.clear {
   color: #ff7777;
 }
 .like-icon {
@@ -30,4 +31,3 @@
   cursor: pointer;
   font-size: 20px;
 }
-
