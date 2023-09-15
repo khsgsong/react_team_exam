@@ -1,7 +1,7 @@
 .enfp-all-wrap {
   width: 1200px;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 .enfp-all-wrap > h2 {
   font-size: 50px;
@@ -20,10 +20,14 @@
   box-sizing: border-box;
   padding: 0px 50px;
   display: contents;
+  text-align: center;
+  /* border-left: 1px solid aliceblue; */
 }
 .enfp-title {
-  padding-left: 170px;
+  color: aliceblue;
+  padding-left: 250px;
   padding-top: 100px;
+  padding-bottom: 50px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -44,21 +48,16 @@
 .enfp-info-content {
   display: block;
 }
-.content {
-  margin: 0;
-  padding: 0;
-  margin: 0 auto;
-  text-align: center;
-}
+
 .infoimg > img {
-  padding-left: 200px;
-  padding-top: 500px;
+  padding-left: 250px;
+  padding-top: 50px;
   width: 500px;
   height: 400px;
 }
-.infoimg-2{
-  padding-left: 200px;
-  padding-top: 350px;
+.infoimg-2 {
+  padding-left: 500px;
+  padding-top: 50px;
   width: 400px;
   height: 400px;
 }
@@ -67,13 +66,12 @@
   margin-left: 350px;
 }
 .infoexpian ul {
-overflow: hidden;
+  overflow: hidden;
 }
 .infoexpian li {
   padding: 1em;
-  
 }
-.infoexpian li>div {
+.infoexpian li > div {
   float: left;
 }
 .remove {
@@ -82,4 +80,13 @@ overflow: hidden;
 .infoexpian > p {
   text-align: center;
   padding-top: 100px;
+}
+.enfp-contentZ {
+  box-sizing: border-box;
+  padding: 0;
+  display: contents;
+  text-align: center;
+}
+.zone-title > p {
+  padding-left: 100px;
 }
