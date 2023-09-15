@@ -26,8 +26,10 @@ const Member1Intro = () => {
       <div className="s-mbti">ISTJ</div>
       <img className="s-img" src="/img/member1.png" alt=""></img>
       <CharacterList characterList={characterList} />
-      <div className="s-tag">#안경이_본캐 #집중력 #현실적 #노잼 주의(ㅠ)</div>
-      <div className="s-info">
+      <div className="s-istj-tag">
+        #안경이_본캐 #집중력 #현실적 #노잼 주의(ㅠ)
+      </div>
+      <div className="s-istj-info">
         1. 약속 어기는 걸 싫어해요 <br></br>
         2. 휴일에는 집에서 주로 지내요 <br></br>
         3. 창의력은 없으니까 명령값을 입력해주세요 <br></br>
@@ -49,7 +51,7 @@ const CharacterList = (props) => {
     <div className="s-character">
       {characterList.map((character, index) => {
         return (
-          <div className="star-rate" key={"character" + index}>
+          <div className="s-star-rate" key={"character" + index}>
             <span>{character.character}</span>
             <Star star={character.star} />
           </div>

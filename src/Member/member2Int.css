@@ -1,7 +1,11 @@
+p {
+  margin: 0;
+  line-height: 27px;
+}
+
 .intjCharacter-wrap {
   width: 606px;
   text-align: center;
-  padding-top: 40px;
   margin: 0 auto;
 }
 

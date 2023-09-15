@@ -12,13 +12,13 @@ const Member1Chemi = () => {
     {
       chemiNo: 2,
       mbti: "ENTP",
-      comment: "대환장 조합(2위 맞아..?)",
+      comment: "대환장 조합 (2위 맞아..?)",
       img: "/img/ISTJ-ENTP.jpg",
     },
     {
       chemiNo: 3,
       mbti: "ISFP",
-      comment: "서로를 존중해요(짤이 없어요..)",
+      comment: "서로를 존중해요 (짤이 없어요..)",
       img: "/img/ISTJ-ISFP.png",
     },
   ]);
