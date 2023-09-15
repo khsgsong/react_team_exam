@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./member.css";
+import "./memberList.css";
 
 const MemberList = (props) => {
   const memberList = props.memberList;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./addFrm.css";
+
 const AddFrm = (props) => {
   const addTodo = props.addTodo;
   const [todoTitle, setTodoTitle] = useState("");
@@ -10,10 +10,9 @@ const AddFrm = (props) => {
       setTodoTitle("");
     }
   };
-
   const changeTitle = (e) => {
+    // e.currentTarget : 해당 이벤트를 발생시킨 엘리먼트
     const inputValue = e.currentTarget.value;
-
     setTodoTitle(inputValue);
   };
   const enterCheck = (e) => {
@@ -22,17 +21,16 @@ const AddFrm = (props) => {
     }
   };
   return (
-    <div className="todo-frm">
+    <div className="member5-frm">
       <input
         type="text"
-        placeholder="당신의 엔프피 모먼트를 알려주세여:)"
         className="input"
         value={todoTitle}
         onChange={changeTitle}
         onKeyUp={enterCheck}
       ></input>
       <button className="btn" onClick={regist}>
-        등록하기
+        입력
       </button>
     </div>
   );

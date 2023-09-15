@@ -14,19 +14,19 @@ function EnfpZone() {
     {
       todoNo: todoNo++,
       todoTitle: "저도 엔프피입돠~!",
-      
+
       isLike: 0,
     },
     {
       todoNo: todoNo++,
       todoTitle: "친해지고싶어여!!",
-     
+
       isLike: 0,
     },
     {
       todoNo: todoNo++,
-      todoTitle: "오늘도 전 I 라고 자기전에 느꼈어여^^*",
-      
+      todoTitle: "오늘도 전 대문자 I 라고 자기전에 느꼈어여^^*",
+
       isLike: 1,
     },
   ]);
@@ -37,7 +37,7 @@ function EnfpZone() {
     const newArr = [...todoList];
     setTodoList(newArr);
   };
- 
+
   const addTodo = (todoTitle) => {
     const todo = {
       todoNo: todoNo++,
@@ -57,14 +57,19 @@ function EnfpZone() {
   };
 
   return (
-    <div className="wrap">
-      <ENFPHeader/>
-      <AddFrm addTodo={addTodo} />
-      <TodoList
-        todoList={todoList}
-        changeLike={changeLike}
-        deleteTodo={deleteTodo}
-      />
+    <div className="enfp-all-wrap">
+      <ENFPHeader />
+      <div className="enfp-title">enfp 모여라~!</div>
+      <div className="enfp-contnent">
+        <div className="enfp-contentZ">
+          <AddFrm addTodo={addTodo} />
+          <TodoList
+            todoList={todoList}
+            changeLike={changeLike}
+            deleteTodo={deleteTodo}
+          />
+        </div>
+      </div>
     </div>
   );
 }

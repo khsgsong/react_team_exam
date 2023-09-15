@@ -1,0 +1,25 @@
+.member5-all-wrap {
+  width: 1200px;
+  margin: 30px auto;
+}
+.member5-all-wrap > h2 {
+  color: #fff;
+}
+.member5-content-wrap {
+  padding-top: 50px;
+  overflow: hidden;
+  display: flex;
+}
+
+.member5-side-menu {
+  width: 300px;
+}
+.member5-content {
+  width: 900px;
+  box-sizing: border-box;
+  padding: 0px 50px;
+}
+.member5-title {
+  font-size: 24px;
+  font-weight: bold;
+}

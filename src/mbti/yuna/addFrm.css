@@ -1,9 +1,10 @@
 .todo-frm {
   width: 700px;
   margin: 0 auto;
-  padding: 50px;
+  padding-left: 200px;
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 }
 .todo-frm > * {
   box-sizing: border-box;
@@ -13,7 +14,7 @@
 }
 .todo-frm > input {
   border: 1px solid #ff7777;
-  
+
   width: 80%;
 }
 .todo-frm > button {
