@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MemberList from "./MemberList";
-import "./member.css";
+import "./memberList.css";
 
 const Member = () => {
   const [memberList, setMemberList] = useState([

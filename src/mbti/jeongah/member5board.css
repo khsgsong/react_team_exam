@@ -1,0 +1,56 @@
+.member5-list {
+  width: 700px;
+  padding: 40px 50px;
+}
+.member5-list > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+.member5-list > ul > li {
+  float: left;
+}
+.likes {
+  width: 15%;
+  text-align: center;
+}
+.text {
+  width: 65%;
+}
+
+.like-icon,
+.remove-icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.member5-frm {
+  width: 700px;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+}
+.member5-frm > * {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.member5-frm > input {
+  border: 1px solid #ccc;
+  width: 80%;
+}
+.member5-frm > button {
+  width: 20%;
+  background: #202020;
+  color: #fff;
+  cursor: pointer;
+}
+.member5-board-title {
+  text-align: center;
+  font-size: 25px;
+}
