@@ -8,17 +8,17 @@ function App() {
   const [todoList, setTodoList] = useState([
     {
       todoNo: todoNo++,
-      todoTitle: "javascript 복습하기",
+      todoTitle: "ESFP 친목 좋아용!",
       isLike: 0,
     },
     {
       todoNo: todoNo++,
-      todoTitle: "react 복습하기",
+      todoTitle: "안녕하세요 ㅎㅎ",
       isLike: 0,
     },
     {
       todoNo: todoNo++,
-      todoTitle: "이력서 복습하기",
+      todoTitle: "ESFP 여러분 오늘 점심은 뭐먹었어요!?!?",
       isLike: 1,
     },
   ]);
@@ -66,7 +66,10 @@ function App() {
   };
 
   return (
-    <div className="wrap">
+    <div className="member5-wrap">
+      <div className="member5-board-title">
+        <h2>ESFP!! 어서오세용!</h2>
+      </div>
       <Member5boardFrm addTodo={addTodo} />
       <Member5boardList
         todoList={todoList}

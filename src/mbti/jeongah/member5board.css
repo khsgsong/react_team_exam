@@ -1,8 +1,8 @@
-.todo-list {
+.member5-list {
   width: 700px;
-  padding: 50px;
+  padding: 40px 50px;
 }
-.todo-list > ul {
+.member5-list > ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -10,7 +10,7 @@
   border: 1px solid #fff;
   overflow: hidden;
 }
-.todo-list > ul > li {
+.member5-list > ul > li {
   float: left;
 }
 .likes {
@@ -28,25 +28,29 @@
   font-size: 20px;
 }
 
-.todo-frm {
+.member5-frm {
   width: 700px;
-  padding: 50px;
+  padding: 30px 50px;
   display: flex;
   align-items: center;
 }
-.todo-frm > * {
+.member5-frm > * {
   box-sizing: border-box;
   outline: none;
   border: none;
   padding: 10px;
 }
-.todo-frm > input {
+.member5-frm > input {
   border: 1px solid #ccc;
   width: 80%;
 }
-.todo-frm > button {
+.member5-frm > button {
   width: 20%;
   background: #202020;
   color: #fff;
   cursor: pointer;
+}
+.member5-board-title {
+  text-align: center;
+  font-size: 25px;
 }

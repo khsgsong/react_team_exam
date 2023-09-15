@@ -21,7 +21,7 @@ const AddFrm = (props) => {
     }
   };
   return (
-    <div className="todo-frm">
+    <div className="member5-frm">
       <input
         type="text"
         className="input"
