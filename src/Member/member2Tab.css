@@ -87,3 +87,8 @@
   font-weight: bold;
   color: #fff;
 }
+
+.tab a.active {
+  background-color: #ff7777;
+  color: #fff;
+}

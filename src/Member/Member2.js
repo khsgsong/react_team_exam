@@ -6,8 +6,12 @@ import Member2Int from "./Member2Int";
 import Member2Board from "./Member2Board";
 import Member2Match from "./Member2Match";
 import Member2Header from "./Member2Header";
+import { useEffect } from "react";
 
 const Member2 = () => {
+  useEffect(() => {
+    document.querySelectorAll(".tab a")[0].click();
+  }, []);
   return (
     <>
       <Member2Header />

@@ -1,0 +1,61 @@
+.intjCharacter-wrap {
+  width: 606px;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.intjCharacter {
+  overflow: hidden;
+}
+
+.intjCharacter-wrap > img {
+}
+
+.intjCharacter-title {
+  border-top: 1px solid #fff;
+  margin-top: 35px;
+  padding: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.intjCharacter-content {
+  text-align: left;
+  font-size: 18px;
+}
+
+.intjCharacter-keyword {
+  margin-top: 35px;
+  border-top: 1px solid #fff;
+  padding: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.intjCharacter-pros,
+.intjCharacter-cons {
+  float: left;
+  text-align: left;
+  font-size: 18px;
+}
+
+.intjCharacter-pros {
+  width: 50%;
+}
+
+.intjCharacter-cons {
+  width: 50%;
+}
+
+.keyword-title {
+  color: yellow;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.intjDateStyle {
+  float: left;
+  text-align: left;
+  font-size: 18px;
+}

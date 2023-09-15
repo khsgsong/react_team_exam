@@ -44,7 +44,7 @@ const Member1Board = () => {
   };
   return (
     <div className="s-wrap">
-      <div className="s-title">ISTJ 모여라</div>
+      <div className="s-title">ISTJ 여기 모여라!</div>
       <InputBox addBoard={addBoard} />
       <ListBox
         boardList={boardList}
